@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color:whitesmoke;
+    /* background-image: url('/public/loginbi.jpg'); */
+    background-position: 200px;
+}
+.header{
+    
+    padding: 60px;
+    font-style: oblique;
+  
+    text-align:right;   
+}
+
+ #negation{
+     background-color:slategrey; 
+ }
+ .image{
+    width: 150px;
+    height:400px;
+    
+ }
+ #content{
+    position: absolute;
+    background-color:transparent;
+   
+    text-align: center;
+    width: 500%;
+    height: 360px;
+    position: relative;
+    left:400%;
+    top: 30%;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    #content {
+        top: 50%;
+      width: 100%;
+      left: 50%;
+    }
+  }
